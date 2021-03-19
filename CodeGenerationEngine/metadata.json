@@ -1,0 +1,16 @@
+﻿{
+  "entities": [
+    {
+      "name": "User",
+      "template": "EntityX"
+    },
+    {
+      "name": "Department",
+      "template": "EntityY"
+    },
+    {
+      "name": "Terje",
+      "template": "EntityY"
+    }
+  ]
+}
