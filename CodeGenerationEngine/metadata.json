@@ -1,16 +1,37 @@
 ﻿{
   "entities": [
     {
+      "name": "Customer",
+      "mainTemplate":  "templateA" ,
+      "template": "EntityX",
+    },
+    {
       "name": "User",
-      "template": "EntityX"
+      "template": "EntityX",
+      "ExtractTemplate": "Default"
     },
     {
       "name": "Department",
-      "template": "EntityY"
+      "template": "EntityY",
+      "Extract": [
+        "Default",
+        "StepX13"
+      ]
     },
     {
       "name": "Terje",
-      "template": "EntityY"
+      "template": "EntityY",
+      "Extract": [
+        "StepX13",
+        "StepAB4"
+      ]
     }
-  ]
+  ],
+
+  "templates": {
+    "templateA": {
+
+    } 
+  } 
+
 }
