@@ -3,7 +3,7 @@
     {
       "name": "Customer",
       "mainTemplate":  "templateA" ,
-      "template": "EntityX",
+      "template": "EntityX"
     },
     {
       "name": "User",
